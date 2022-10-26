@@ -13,6 +13,6 @@ text-align: center;
 font-family: Verdana, sans-serif;
 }
 h3{ color: brown;
-text-align: left;
+text-align:calc(start);
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
