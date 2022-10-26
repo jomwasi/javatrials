@@ -7,9 +7,7 @@ function akanNames() {
 
     var dateInput = prompt("Enter date of birth (YYYY-MM-DD):");
 
-
-
-    // //date manupulation
+    // //inputting birthdate infor
     var birthDate = new Date(dateInput); //uses the variable dateInputfrom the user to create a caleder date
     var exactDate = birthDate.getDay(); //pick the day from the date object - day of the wek
     var birthMonth = birthDate.getMonth(); //picks the month from the object-
@@ -17,7 +15,6 @@ function akanNames() {
 
     // //use date to access namelist
     var genderFemale = femaleNames[exactDate];
-
     var genderMale = maleNames[exactDate];
 
     if (
@@ -30,7 +27,7 @@ function akanNames() {
     ) {
         var sex = prompt("Enter your Gender (M/F):").toUpperCase(); //takes the user gender and convert it to toUpperCase
 
-        /* to capture wrong gender choice */
+        /* if wrong choice captured */
         if (sex === "M" || sex === "F" || sex === "MALE" || sex === "FEMALE") {
 
             if (sex === "M") {
