@@ -7,6 +7,8 @@ function akanNames() {
 
     var dateInput = prompt("Enter date of birth (YYYY-MM-DD):");
 
+
+
     // //date manupulation
     var birthDate = new Date(dateInput); //uses the variable dateInputfrom the user to create a caleder date
     var exactDate = birthDate.getDay(); //pick the day from the date object - day of the wek
