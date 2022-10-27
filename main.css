@@ -1,4 +1,5 @@
 body{ 
+    position: sticky;
     background-color: rgb(166, 232, 232);
     line-height: 25pt;
     font-size: medium;
