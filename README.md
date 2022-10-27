@@ -1,4 +1,4 @@
-# This is my second project.
+This is my second project.
 Project Name - Ghanian Naming Culture.
 Project Author - Joy Mwasi
 About Project 
